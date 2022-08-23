@@ -1,0 +1,345 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 0vh;
+}
+
+.pesquisa {
+    position: absolute;
+    top: 85px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 40px;
+    padding: 10px;
+    background: rgb(255, 255, 255);
+    /*cor da balão*/
+
+}
+
+.pesquisa:hover>.pesquisa-texto {
+    width: 245px;
+    /* tamanho do texto, porem quando minimizado*/
+    padding: 0 6px;
+}
+
+.pesquisa:hover>.pesquisa-texto {
+    background: rgb(255, 255, 255);
+    /*caixa d texto*/
+
+}
+
+.pesquisa-botao {
+    color: rgb(255, 255, 255);
+    /*cor da lupa*/
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 80%;
+    background: rgb(0, 0, 0);
+    /*cor do fundo da lupa*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+}
+
+.pesquisa-texto {
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: rgb(0, 0, 0);
+    /* cor do texto*/
+    font-size: 11px;
+    transition: 0.4s;
+    line-height: 40px;
+    width: 0px;
+    /* tamanho da barra de texto*/
+    font-family: 'lemon milk';
+}
+
+.logo {
+    position: absolute;
+    width: 185px;
+    height: 170px;
+    left: 70px;
+    top: -10px;
+}
+
+.fundo {
+    background-image: url(IMG/gta.jpg);
+    position: absolute;
+    height: 170%;
+    width: 100%;
+}
+
+.Barra-amarela {
+    width: 100%;
+    height: 134px;
+    background: gold;
+    top: 0px;
+    position: absolute;
+}
+
+.fundob {
+    position: absolute;
+    top: 134px;
+    left: 400px;
+    width: 750px;
+    height: 1130px;
+    background: rgb(255, 255, 255);
+    /*onde os jogos vão*/
+}
+
+.gta5 {
+    position: absolute;
+    width: 174px;
+    height: 307px;
+    left: 440px;
+    top: 755px
+}
+
+.gta_trio {
+    position: absolute;
+    width: 174px;
+    height: 307px;
+    left: 670px;
+    top: 748px;
+}
+
+.mine {
+    position: absolute;
+    width: 174px;
+    height: 307px;
+    left:900px;
+    top: 753px;
+}
+
+.gow {
+    position: absolute;
+    width: 166px;
+    height: 290px;
+    left: 443px;
+    top: 276px;
+}
+
+.god {
+    position: absolute;
+    width: 166px;
+    height: 290px;
+    left: 673px;
+    top: 280px;
+}
+
+.forza {
+    position: absolute;
+    width: 158px;
+    height: 299px;
+    left: 900px;
+    top: 280px;
+}
+
+.ejogos {
+    position: absolute;
+    width: 146px;
+    height: 34px;
+    left: 690px;
+    top: 180px;
+    font-family: 'Lemon milk';
+    font-style: normal;
+    font-size: 35px;
+    line-height: 48px;
+}
+
+.Destaques {
+    position: absolute;
+    width: 146px;
+    height: 34px;
+    left: 660px;
+    top: 610px;
+    font-family: 'Lemon milk';
+    font-style: normal;
+    font-size: 35px;
+    line-height: 48px;
+}
+
+.rodape {
+    position: absolute;
+    width: 100%;
+    height: 134px;
+    background: rgb(255, 255, 255);
+    top: 1147px;
+}
+
+.footer {
+    position: absolute;
+    top: 1237px;
+    width: 100%;
+    height: 50px;
+}
+
+.barraconta {
+    position: absolute;
+    top: 50px;
+    left: 1200px;
+    border-radius: 20px;
+}
+
+.barra11 {
+    position: absolute;
+    width: 31px;
+    height: 45px;
+    left: 1383px;
+    top: 60px;
+}
+.barra12 {
+    position: absolute;
+    width: 125px;
+    height: 39px;
+    left: 1217px;
+    top: 63px;
+}
+.voltar {
+    position: absolute;
+    top: 530px;
+    left: 413px;
+    width: 700px;
+    height: 700px;
+}
+#sair {
+    position: absolute;
+    width: 40px;
+    height: 30px;
+    left: 1157px;
+    top: 67px;
+    color: rgb(255, 255, 0);
+    background-color: black;
+}
+.boxlogin {
+    position: absolute;
+    top: 325px;
+    left: 665px;
+}
+
+
+@media screen and (width:1366px),
+(height:768px) {
+    .fundo1366 {
+        background-image: url(IMG/gta.jpg);
+        position: absolute;
+        height: 180%;
+        width: 100%;
+    }
+
+    .BARRA1366 {
+        position: absolute;
+        width: 100%;
+        height: 90px;
+        background: gold;
+    }
+
+    .barraconta1366 {
+        position: absolute;
+        top: 10px;
+        left: 1020px;
+        border-radius: 1000px;
+    }
+
+    .barra1366 {
+        position: absolute;
+        width: 120px;
+        height: 50px;
+        left: 1040px;
+        top: 20px;
+    }
+
+    .fundob1366 {
+        position: absolute;
+        top: 90px;
+        left: 22%;
+        width: 750px;
+        height: 1095px;
+        background: rgb(255, 255, 255);
+    }
+
+    .ejogos {
+        position: absolute;
+        width: 146px;
+        height: 34px;
+        left: 614px;
+        top: 180px;
+        font-family: 'Lemon milk';
+        font-style: normal;
+        font-size: 35px;
+        line-height: 48px;
+    }
+
+    .gow1366 {
+        position: absolute;
+        width: 166px;
+        height: 290px;
+        left: 355px;
+        top: 276px;
+    }
+
+    .god1366 {
+        position: absolute;
+        width: 166px;
+        height: 290px;
+        left: 597px;
+        top: 280px;
+    }
+
+    .forza1366 {
+        position: absolute;
+        width: 158px;
+        height: 299px;
+        left: 835px;
+        top: 280px;
+    }
+
+    .Destaques1366 {
+        position: absolute;
+        width: 146px;
+        height: 34px;
+        left: 567px;
+        top: 610px;
+        font-family: 'Lemon milk';
+        font-style: normal;
+        font-size: 35px;
+        line-height: 48px;
+    }
+
+    .gta51366 {
+        position: absolute;
+        width: 174px;
+        height: 307px;
+        left: 353px;
+        top: 755px;
+    }
+
+    .gtatrio1366 {
+        position: absolute;
+        width: 174px;
+        height: 307px;
+        left: 595px;
+        top: 748px;
+    }
+
+    .mine1366 {
+        position: absolute;
+        width: 174px;
+        height: 307px;
+        left: 834px;
+        top: 753px;
+    }
+    .logo1366 {
+            position: absolute;
+            width: 9%;
+            height: 140%;
+            left: 70px;
+            top: -10px;
+    }
+
+}

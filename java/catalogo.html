@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div><br><h2><p id="p1nome">GOD OF WAR</p></h2>
+        <p id="p1preco">94,90</p>
+        <div class="BOTAOCOMPRA">
+            <br><img class="botaocomprar" src="IMG/comprar.png" height="27" width="215" border-radius="20" value="Adicionar" onclick="
+        addCarrinho(
+            document.getElementById('p1nome').textContent, //nome
+            document.getElementById('p1preco').textContent, //preco
+            document.getElementById('p1quantidade').value, //quantidade
+            1)"> <!-- quantos elementos foram adiconados -->
+    </div>
+</body>
+<script src="java/compra.js"></script>
+</html>
